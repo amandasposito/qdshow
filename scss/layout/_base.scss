@@ -1,3 +1,144 @@
-body{
+body {
   background: #eff3f6;
+}
+
+.site-header {
+  width:100%;
+  height: 70px;
+  padding: 13px 5% 0;
+  display: block;
+  background: #fff;
+
+  .dropdown-menu {
+    float: left;
+    margin-top: 5px;
+
+    li:first-child {
+      a {
+        width: 32px;
+        height: 32px;
+        display: block;
+        text-indent: -90000em;
+        overflow: hidden;
+        background: url(../images/menu-icon.png) no-repeat 0 0;
+      }
+    }
+  }
+
+  h1 {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    left: 50%;
+    margin-top: 0;
+    margin-left: -22px;
+    text-indent: -90000em;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #2897EB;
+  }
+
+  .user-menu {
+    margin-top: 5px;
+    float: right;
+
+    .user-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 20px;
+    }
+  }
+}
+
+h3 {
+  font-family: $font-title;
+  font-size:24px;
+  color: $color-title;
+
+  small {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: solid 1px $border-color;
+    font-size: 14px;
+    color: $color-subtitle;
+  }
+}
+
+a.btn-action {
+  width: 100%;
+  display: block;
+  padding: 9px 0;
+  font-size: 14px;
+  font-family: $font-title;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #39b54a, #34aa44 98%);
+  border: solid 1px #249533;
+}
+
+main {
+  padding: 0 10px;
+
+  .featured {
+    ul {
+      li {
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-radius: 4px;
+        border: solid 1px $border-color;
+        background: #fff;
+
+        .image-container img {
+          width: 335px;
+          height: 175px;
+        }
+
+        h4 {
+          font-family: $font-title;
+          font-size:16px;
+          color: $color-title;
+
+          small {
+            font-size:12px;
+            display: block;
+            color: $color-subtitle;
+          }
+        }
+      }
+    }
+  }
+
+  .all-events {
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px $border-color;
+    background: #fff;
+
+    .event {
+      p {
+        width: 100%;
+        padding: 26px 0;
+        font-size: 14px;
+        color: $color-subtitle;
+        border-bottom: solid 1px $border-color;
+
+        strong {
+          float: right;
+          text-align: right;
+          color: $color-text;
+          font-weight: normal;
+          font-size:14px;
+
+          small {
+            display: block;
+            color: $color-subtitle;
+          }
+        }
+      }
+    }
+  }
 }
