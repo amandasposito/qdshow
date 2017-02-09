@@ -1,17 +1,19 @@
 // Colors
 $text-color: #333;
 
+$color-title: #354052;
+$color-subtitle: #7f8fa4;
+$color-text: #354052;
+
+$background-color: #eff3f6;
+$border-color: #e6eaee;
+
 // Breakpoints
 $breakpoints: (
   'tablet': (min-width: 768px),
   'desktop': (min-width: 960px)
 ) !default;
 
-$border-color: #e6eaee;
-
+// Fonts
+$primary-font: 'Source Sans Pro', Arial;
 $font-title : 'Source Sans Pro', Arial, sans-serif;
-$color-title: #354052;
-$color-subtitle: #7f8fa4;
-$color-text: #354052;
-
-

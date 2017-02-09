@@ -1,0 +1,35 @@
+.events {
+  width:96.5%;
+  padding: 10px;
+  border-radius: 4px;
+  border: solid 1px $border-color;
+  background: #fff;
+}
+
+.events__item {
+  margin-bottom: 3rem;
+
+  p {
+    width: 100%;
+    padding: 26px 0;
+    font-size: 14px;
+    color: $color-subtitle;
+    border-bottom: solid 1px $border-color;
+  }
+}
+
+.highlighted-text {
+  color: $color-text;
+  font-weight: normal;
+  font-size:14px;
+
+  small {
+    display: block;
+    color: $color-subtitle;
+  }
+}
+
+.highlighted-text--right{
+  float: right;
+  text-align: right;
+}

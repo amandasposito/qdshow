@@ -1,0 +1,16 @@
+.btn-action {
+  width: 100%;
+  display: block;
+  padding: 9px 0;
+  font-size: 14px;
+  font-family: $font-title;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.btn-action--green {
+  color: #fff;
+  background-image: linear-gradient(to bottom, #39b54a, #34aa44 98%);
+  border: solid 1px #249533;
+}

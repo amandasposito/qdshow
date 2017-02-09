@@ -1,9 +1,11 @@
 @import 'vendor/normalize';
-
 @import 'config/variables';
-@import 'config/base';
-
 @import 'mixins/media';
-
 @import 'fonts/fonts';
+
+@import 'components/site-header';
+@import 'components/featured-list';
+@import 'components/events-list';
+@import 'components/buttons';
+
 @import 'layout/base';

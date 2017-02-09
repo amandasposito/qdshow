@@ -1,0 +1,50 @@
+.site-header {
+  width:97%;
+  height: 70px;
+  margin: 0;
+  padding: 13px 5% 0;
+  display: block;
+  background: #fff;
+}
+
+.dropdown-menu {
+  float: left;
+  margin-top: 5px;
+}
+
+.dropdown-menu__list{
+  :first-child {
+    a {
+      width: 32px;
+      height: 32px;
+      display: block;
+      text-indent: -90000em;
+      overflow: hidden;
+      background: url(../images/menu-icon.png) no-repeat 0 0;
+    }
+  }
+}
+
+.site-header__logo {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 50%;
+  margin-top: 0;
+  margin-left: -22px;
+  text-indent: -90000em;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #2897EB;
+}
+
+.user-menu {
+  margin-top: 5px;
+  float: right;
+}
+
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 20px;
+}
