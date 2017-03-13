@@ -1,8 +1,10 @@
 @import 'vendor/normalize';
 @import 'config/variables';
+@import 'config/breakpoints';
 @import 'mixins/media';
 @import 'fonts/fonts';
 
+@import 'components/side-menu';
 @import 'components/site-header';
 @import 'components/featured-list';
 @import 'components/events-list';

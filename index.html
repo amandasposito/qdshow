@@ -21,10 +21,15 @@
       <nav class="dropdown-menu">
         <ul class="dropdown-menu__list">
           <li><a href="#" class="Show menu">Show menu</a></li>
+          <li><a href="#" title="Eventos">Eventos</a></li>
+          <li><a href="#" title="Catálogo">Catálogo</a></li>
+          <li><a href="#" title="Seus ingressos">Seus ingressos</a></li>
         </ul>
       </nav>
 
       <h1 class="site-header__logo">Plataformatec</h1>
+
+      <input type="search" class="site-header__search mobile-hidden" placeholder="Buscar" />
 
       <ul class="user-menu">
         <li>
@@ -37,133 +42,149 @@
     </header>
 
     <main class="container">
-      <section class="featured">
-        <h3 class="subtitle">Eventos em destaque</h3>
+      <nav class="mobile-hidden side-menu">
+        <h3 class="subtitle">Menu</h3>
 
-        <ul class="featured-list">
-          <li class="featured-list__item">
-            <img
-              src="images/featured_placeholder.png"
-              alt="Show da Joelma"
-              class="featured-list__featured-image" />
-
-            <h4 class="featured-list__item__title">
-              Show da Joelma
-              <small>Anta Gorda, Rio Grande do Sul</small>
-            </h4>
-
-            <a href="#" class="btn-action btn-action--green" title="Comprar por R$ 560,00">Comprar por R$ 560,00</a>
-          </li>
-
-          <li class="featured-list__item">
-            <div class="image-container">
-              <!-- <small>Destaque</small> -->
-              <img src="images/featured_placeholder.png" alt="Show da Joelma" />
-            </div>
-
-            <h4 class="featured-list__item__title">
-              MC Boneco
-              <small>Paranauê, Paraná</small>
-            </h4>
-
-            <a href="#" class="btn-action btn-action--green" title="Comprar por R$ 2,99">Comprar por R$ 2,99</a>
-          </li>
+        <ul>
+          <li><a href="#">Eventos em destaque</a></li>
+          <li><a href="#">Recomendados</a></li>
+          <li><a href="#">Transmissões ao vivo</a></li>
+          <li><a href="#">DVD & Shows</a></li>
+          <li><a href="#">Filmes</a></li>
+          <li><a href="#">Configurações</a></li>
         </ul>
-      </section>
+      </nav>
 
-      <section class="events">
-        <h3 class="subtitle">
-          Todos eventos
-          <small>32 eventos</small>
-        </h3>
+      <div class="content">
+        <section class="featured">
+          <h3 class="subtitle">Eventos em destaque</h3>
 
-        <div class="events__item">
-          <p>
-            Conference
-            <strong class="highlighted-text highlighted-text--right">
-              RailsConf
-              <small>São Francisco, Estados Unidos da América</small>
-            </strong>
-          </p>
+          <ul class="featured-list">
+            <li class="featured-list__item">
+              <img
+                src="images/featured_placeholder.png"
+                alt="Show da Joelma"
+                class="featured-list__featured-image" />
 
-          <p>
-            Data
-            <strong class="highlighted-text highlighted-text--right">
-              24 - 28 de agosto de 2016
-            </strong>
-          </p>
+              <h4 class="featured-list__item__title">
+                Show da Joelma
+                <small>Anta Gorda, Rio Grande do Sul</small>
+              </h4>
 
-          <p>
-            Preço
-            <strong class="highlighted-text highlighted-text--right">
-              R$ 1290,00
-              <small>
-                32 ingressos restantes
-              </small>
-            </strong>
-          </p>
+              <a href="#" class="btn-action btn-action--green" title="Comprar por R$ 560,00">Comprar por R$ 560,00</a>
+            </li>
 
-          <a href="#" class="btn-action btn-action--green" title="Comprar">Comprar</a>
-        </div>
+            <li class="featured-list__item">
+              <img
+                src="images/featured_placeholder.png"
+                alt="Show da Joelma"
+                class="featured-list__featured-image" />
 
-        <div class="events__item">
-          <p>
-            Conference
-            <strong class="highlighted-text highlighted-text--right">
-              RailsConf
-              <small>São Francisco, Estados Unidos da América</small>
-            </strong>
-          </p>
+              <h4 class="featured-list__item__title">
+                MC Boneco
+                <small>Paranauê, Paraná</small>
+              </h4>
 
-          <p>
-            Data
-            <strong class="highlighted-text highlighted-text--right">
-              24 - 28 de agosto de 2016
-            </strong>
-          </p>
+              <a href="#" class="btn-action btn-action--green" title="Comprar por R$ 2,99">Comprar por R$ 2,99</a>
+            </li>
+          </ul>
+        </section>
 
-          <p>
-            Preço
-            <strong class="highlighted-text highlighted-text--right">
-              R$ 1290,00
-              <small>
-                32 ingressos restantes
-              </small>
-            </strong>
-          </p>
+        <section class="events">
+          <h3 class="subtitle">
+            Todos eventos
+            <small>32 eventos</small>
+          </h3>
 
-          <a href="#" class="btn-action btn-action--green" title="Comprar">Comprar</a>
-        </div>
+          <div class="events__item">
+            <p>
+              Conference
+              <strong class="highlighted-text highlighted-text--right">
+                RailsConf
+                <small>São Francisco, Estados Unidos da América</small>
+              </strong>
+            </p>
 
-        <div class="events__item">
-          <p>
-            Conference
-            <strong class="highlighted-text highlighted-text--right">
-              RailsConf
-              <small>São Francisco, Estados Unidos da América</small>
-            </strong>
-          </p>
+            <p>
+              Data
+              <strong class="highlighted-text highlighted-text--right">
+                24 - 28 de agosto de 2016
+              </strong>
+            </p>
 
-          <p>
-            Data
-            <strong class="highlighted-text highlighted-text--right">
-              24 - 28 de agosto de 2016
-            </strong>
-          </p>
+            <p>
+              Preço
+              <strong class="highlighted-text highlighted-text--right">
+                R$ 1290,00
+                <small>
+                  32 ingressos restantes
+                </small>
+              </strong>
+            </p>
 
-          <p>
-            Preço
-            <strong class="highlighted-text highlighted-text--right">
-              R$ 1290,00
-              <small>
-                32 ingressos restantes
-              </small>
-            </strong>
-          </p>
+            <a href="#" class="btn-action btn-action--green" title="Comprar">Comprar</a>
+          </div>
 
-          <a href="#" class="btn-action btn-action--green" title="Comprar">Comprar</a>
-        </div>
-      </section>
+          <div class="events__item">
+            <p>
+              Conference
+              <strong class="highlighted-text highlighted-text--right">
+                RailsConf
+                <small>São Francisco, Estados Unidos da América</small>
+              </strong>
+            </p>
+
+            <p>
+              Data
+              <strong class="highlighted-text highlighted-text--right">
+                24 - 28 de agosto de 2016
+              </strong>
+            </p>
+
+            <p>
+              Preço
+              <strong class="highlighted-text highlighted-text--right">
+                R$ 1290,00
+                <small>
+                  32 ingressos restantes
+                </small>
+              </strong>
+            </p>
+
+            <a href="#" class="btn-action btn-action--green" title="Comprar">Comprar</a>
+          </div>
+
+          <div class="events__item">
+            <p>
+              Conference
+              <strong class="highlighted-text highlighted-text--right">
+                RailsConf
+                <small>São Francisco, Estados Unidos da América</small>
+              </strong>
+            </p>
+
+            <p>
+              Data
+              <strong class="highlighted-text highlighted-text--right">
+                24 - 28 de agosto de 2016
+              </strong>
+            </p>
+
+            <p>
+              Preço
+              <strong class="highlighted-text highlighted-text--right">
+                R$ 1290,00
+                <small>
+                  32 ingressos restantes
+                </small>
+              </strong>
+            </p>
+
+            <a href="#" class="btn-action btn-action--green" title="Comprar">Comprar</a>
+          </div>
+        </section>
+      </div>
+
     </main>
   </body>
 </html>

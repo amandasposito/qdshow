@@ -42,3 +42,16 @@ ul {
     color: $color-subtitle;
   }
 }
+
+@include media-desktop-breakpoint {
+  .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+    .content{
+      flex-grow: 2;
+      order: 2;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 .events {
-  width:96.5%;
+  width:100%;
   padding: 10px;
   border-radius: 4px;
   border: solid 1px $border-color;
@@ -32,4 +32,8 @@
 .highlighted-text--right{
   float: right;
   text-align: right;
+}
+
+@media (min-width: 800px) {
+
 }

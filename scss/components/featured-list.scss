@@ -1,9 +1,13 @@
+.featured{
+
+}
+
 .featured-list {
   width: 100%;
 }
 
 .featured-list__item {
-  width: 96.5%;
+  width: 100%;
   display: block;
   padding: 10px;
   margin-bottom: 10px;
@@ -18,7 +22,6 @@
   height: 175px;
 }
 
-
 .featured-list__item__title{
   font-family: $font-title;
   font-size:16px;
@@ -28,5 +31,24 @@
    font-size:12px;
    display: block;
    color: $color-subtitle;
+  }
+}
+
+@include media-desktop-breakpoint {
+  .featured-list {
+    display: flex;
+  }
+
+  .featured-list{
+    justify-content: space-between;
+  }
+
+  .featured-list__item{
+    margin-left: 2%;
+  }
+
+  .featured-list__item:first-child{
+    margin-left: 0;
+    margin-right: 2%;
   }
 }

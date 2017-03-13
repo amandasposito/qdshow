@@ -3,17 +3,18 @@ $text-color: #333;
 
 $color-title: #354052;
 $color-subtitle: #7f8fa4;
+$color-subtitle-grey: #9fa9ba;
 $color-text: #354052;
+$color-link: #9fa9ba;
 
 $background-color: #eff3f6;
 $border-color: #e6eaee;
 
 // Breakpoints
-$breakpoints: (
-  'tablet': (min-width: 768px),
-  'desktop': (min-width: 960px)
-) !default;
+$breakpoint-desktop: 800px;
 
 // Fonts
 $primary-font: 'Source Sans Pro', Arial;
 $font-title : 'Source Sans Pro', Arial, sans-serif;
+
+$site-max-width: 980px;
